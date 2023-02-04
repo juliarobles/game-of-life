@@ -125,11 +125,6 @@
 
         </plugins>
 
-        <pluginManagement>
-            <plugins>
-
-            </plugins>
-        </pluginManagement>
         <extensions>
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
@@ -138,10 +133,6 @@
             </extension>
         </extensions>
     </build>
-    <dependencyManagement>
-        <dependencies>
-        </dependencies>
-    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -265,7 +256,7 @@
                                 <plugin>
                                     <groupId>org.jacoco</groupId>
                                     <artifactId>jacoco-maven-plugin</artifactId>
-                                    <version>0.8.7</version>
+                                    <version>0.7.2.201409121644</version>
                                 </plugin>
                                 <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
